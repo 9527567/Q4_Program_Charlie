@@ -9,6 +9,7 @@
 #### 2021/2/15更新 可以在Linux，Windows10，Max OS运行
 
 ##### 使用教程：Ubuntu：
+ 这里是高性能版本，使用英特尔编译器以及mkl并行加速eigen库，英特尔的编译器安装不再赘述。
 
 安装eigen3库：
 
@@ -27,7 +28,7 @@ git clone https://github.com/charlie-C929/Q4_Program_Charlie.git
 ```bash
 mkdir build
 cd build
-cmake .. 
+CXX=icpc cmake .. 
 make
 ```
 
