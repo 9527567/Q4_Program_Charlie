@@ -1,3 +1,5 @@
+#define EIGEN_USE_MKL_ALL
+#define EIGEN_VECTORIZE_SSE4_2
 #include "IO.hpp"
 #include "node.hpp"
 #include "Elemstiffness.hpp"

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_FLAGS "-Wall -Ofast")
+set(CMAKE_CXX_FLAGS "-Wall -Ofast -mkl")
 project(Q4)
 include_directories("${CMAKE_SOURCE_DIR}/include")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
